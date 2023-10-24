@@ -9,5 +9,4 @@ router.get('/', function(req, res, next) {
   res.send(`sum is ${sum}`);
 });
 
-
 module.exports = router;
